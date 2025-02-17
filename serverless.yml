@@ -8,6 +8,7 @@ service: aws-node-http-api-project
 provider:
   name: aws
   runtime: nodejs20.x
+  region: eu-west-2
   iam:
     role:
       statements:
